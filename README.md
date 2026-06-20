@@ -30,19 +30,25 @@ Created GitHub Actions workflow files:
 These files automate the Build, Test, and Deploy stages of the CI/CD pipeline.
 
 Initialized the Git repository:
-# git init---This command initializes an empty Git repository to start version control.
+# git init
+This command initializes an empty Git repository to start version control.
 
-# git branch -M main---This command creates and sets the main branch.
+# git branch -M main
+This command creates and sets the main branch.
 
-# git add .---This command adds all project files to the staging area before committing.
+# git add .
+This command adds all project files to the staging area before committing.
 
-# git commit -m "Initial Commit"---This command saves the current version of the project in the local repository.
+# git commit -m "Initial Commit"
+This command saves the current version of the project in the local repository.
 
 Connected the local repository to GitHub:
-# git remote add origin <repository-url>---This command links the local repository with the remote GitHub repository.
+# git remote add origin <repository-url>
+This command links the local repository with the remote GitHub repository.
 
 
-# git push -u origin main---This command uploads all project files to GitHub and sets the upstream branch.
+# git push -u origin main
+This command uploads all project files to GitHub and sets the upstream branch.
 
 Configured the CI/CD pipeline using GitHub Actions.
 
